@@ -1,0 +1,130 @@
+body {
+  font-size: 130%;
+  background-color: #E0E1E1;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+  background-color: #f5f5f5;
+  border: thin solid #000000;
+  -webkit-box-shadow: 1px 2px 2px 2px #000000;
+          box-shadow: 1px 2px 2px 2px #000000;
+}
+
+.header {
+  background-color: #8F9E59;
+  margin-bottom: 5%;
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+}
+
+.header img {
+  width: 20%;
+  padding-top: 20px;
+}
+
+.nav {
+  background-color: #757D79;
+  border-top: thin solid #000000;
+  border-bottom: thin solid #000000;
+  padding: 1%;
+}
+
+.nav ul {
+  list-style-type: none;
+  display: inline;
+  font-family: 'Playfair Display', serif;
+  padding: 20px;
+  width: 100%;
+}
+
+.nav a {
+  text-decoration: none;
+  text-shadow: 1px 1px #757D79;
+  color: white;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.nav a:hover {
+  text-shadow: 1px 1px #000000;
+  color: #f5f5f5;
+  border-bottom: 1px solid white;
+}
+
+.nav li {
+  color: white;
+  display: inline;
+  margin-left: 5%;
+  padding: 1%;
+}
+
+.toggle {
+  width: 100%;
+  padding: 10px 20px;
+  text-align: center;
+  color: #8F9E59;
+  font-size: 40px;
+  display: none;
+}
+
+.footer {
+  background-color: #8F9E59;
+  color: white;
+}
+
+.footer .navFooter ul {
+  list-style-type: none;
+}
+
+.footer .navFooter ul a {
+  text-decoration: none;
+  text-shadow: 1px 1px #757D79;
+  font-family: 'Playfair Display', serif;
+}
+
+.footer .navFooter ul a :hover {
+  text-shadow: 1px 1px #000000;
+}
+
+.footer .navFooter ul a li {
+  color: white;
+}
+
+.footer address a {
+  color: white;
+}
+
+.footer img {
+  width: 50%;
+}
+
+@media (max-width: 768px) {
+  .header img {
+    width: 35%;
+    padding-top: 20px;
+  }
+  .nav .toggle {
+    display: block;
+    text-align: center;
+  }
+  .nav ul {
+    width: 100%;
+    display: none;
+  }
+  .nav ul li {
+    display: block;
+    text-align: center;
+  }
+  .nav li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.4rem;
+    text-align: center;
+  }
+  .nav .active {
+    display: block;
+  }
+}
+/*# sourceMappingURL=style.css.map */

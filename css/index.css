@@ -1,0 +1,159 @@
+.imageBackground {
+  height: 300px;
+  width: 100%;
+  background-image: url("../images/watercolorOverlay.jpg");
+  background-position: 50% 30%;
+  margin-bottom: 5%;
+}
+
+.imageBackground h1 {
+  padding-top: 10%;
+  color: white;
+  font-size: 200%;
+  text-shadow: 2px 2px #000000;
+}
+
+.introP {
+  padding: 2%;
+  border-top: thin solid #000000;
+  border-bottom: thin solid #000000;
+}
+
+.easyLiving h2 {
+  text-decoration: underline;
+  margin-top: 5%;
+  font-family: 'Playfair Display', serif;
+}
+
+.contactBlock {
+  background-image: url("../images/contactBackground.jpg");
+  background-color: #757D79;
+  height: 400px;
+  opacity: 0.7;
+}
+
+.contactBlock a {
+  text-decoration: none;
+}
+
+.contactBlock a :hover {
+  cursor: pointer;
+  opacity: 1;
+  text-decoration: underline;
+  -webkit-text-decoration-color: black;
+          text-decoration-color: black;
+}
+
+.amenitiesBlock {
+  background-image: url("../images/galleryBackground.jpg");
+  background-color: #757D79;
+  height: 400px;
+  opacity: 0.7;
+}
+
+.amenitiesBlock a {
+  text-decoration: none;
+}
+
+.amenitiesBlock a :hover {
+  cursor: pointer;
+  opacity: 1;
+  text-decoration: underline;
+  -webkit-text-decoration-color: black;
+          text-decoration-color: black;
+}
+
+.QBlock {
+  background-image: url("../images/seniorCoopBackground.jpg");
+  background-color: #757D79;
+  height: 400px;
+  opacity: 0.7;
+}
+
+.QBlock a {
+  text-decoration: none;
+}
+
+.QBlock a :hover {
+  cursor: pointer;
+  opacity: 1;
+  text-decoration: underline;
+  -webkit-text-decoration-color: black;
+          text-decoration-color: black;
+}
+
+.floorPlanBlock {
+  background-image: url("../images/floorPlansBackground.jpg");
+  background-color: #757D79;
+  height: 400px;
+  opacity: 0.7;
+}
+
+.floorPlanBlock a {
+  text-decoration: none;
+}
+
+.floorPlanBlock a :hover {
+  cursor: pointer;
+  opacity: 1;
+  text-decoration: underline;
+  -webkit-text-decoration-color: black;
+          text-decoration-color: black;
+}
+
+.contactBlock h3, .amenitiesBlock h3, .QBlock h3, .floorPlanBlock h3 {
+  font-family: 'Playfair Display', serif;
+  width: 50%;
+  margin: 30% auto;
+  color: black;
+  background-color: white;
+  border: thin solid black;
+}
+
+.testimonials {
+  margin-top: 5%;
+}
+
+.testimonials h2 {
+  font-family: 'Playfair Display', serif;
+}
+
+.testimonials .testimonialBlock {
+  background-color: white;
+  -webkit-box-shadow: 2px 2px #757D79;
+          box-shadow: 2px 2px #757D79;
+  border: thin solid #000000;
+}
+
+.CTA {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.CTA h2 {
+  background-color: #757D79;
+  color: White;
+  font-family: 'Playfair Display', serif;
+  text-shadow: 2px 2px #000000;
+}
+
+.CTA a :hover {
+  text-shadow: 2px 2px 5px black;
+}
+
+.CTA a button {
+  background-color: #8F9E59;
+  color: white;
+  height: 130%;
+  margin: auto;
+  font-size: 100%;
+  padding: 1%;
+  font-family: 'Playfair Display', serif;
+  cursor: pointer;
+}
+
+.testImage img {
+  width: 300px;
+  border-radius: 100%;
+}
+/*# sourceMappingURL=index.css.map */

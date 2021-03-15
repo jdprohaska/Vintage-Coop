@@ -1,0 +1,168 @@
+//variables
+$background: #f5f5f5;
+$green: #8F9E59;
+$gray: #757D79;
+$black: #000000;
+
+.imageBackground  {
+  height: 300px;
+  width: 100%;
+  background-image: url("../images/watercolorOverlay.jpg");
+  background-position: 50% 30%;
+  margin-bottom: 5%;
+
+    h1 {
+      padding-top: 10%;
+      color: white;
+      font-size: 200%;
+      text-shadow: 2px 2px $black;
+    }
+}
+
+.introP {
+  padding: 2%;
+  border-top: thin solid $black;
+  border-bottom: thin solid $black;
+}
+
+.easyLiving {
+
+    h2 {
+      text-decoration: underline;
+      margin-top: 5%;
+      font-family: 'Playfair Display', serif;
+    }
+  }
+
+  .contactBlock {
+    background-image: url("../images/contactBackground.jpg");
+    background-color: $gray;
+    height: 400px;
+    opacity: 0.7;
+
+    a {
+      text-decoration: none;
+
+      :hover {
+        cursor: pointer;
+        opacity: 1;
+        text-decoration: underline;
+        text-decoration-color: black;
+      }
+    }
+  }
+
+  .amenitiesBlock {
+    background-image: url("../images/galleryBackground.jpg");
+    background-color: $gray;
+    height: 400px;
+    opacity: 0.7;
+
+    a {
+      text-decoration: none;
+
+      :hover {
+        cursor: pointer;
+        opacity: 1;
+        text-decoration: underline;
+        text-decoration-color: black;
+      }
+    }
+  }
+
+  .QBlock {
+    background-image: url("../images/seniorCoopBackground.jpg");
+    background-color: $gray;
+    height: 400px;
+    opacity: 0.7;
+
+    a {
+      text-decoration: none;
+
+      :hover {
+        cursor: pointer;
+        opacity: 1;
+        text-decoration: underline;
+        text-decoration-color: black;
+      }
+    }
+  }
+
+  .floorPlanBlock {
+    background-image: url("../images/floorPlansBackground.jpg");
+    background-color: $gray;
+    height: 400px;
+    opacity: 0.7;
+
+    a {
+      text-decoration: none;
+
+      :hover {
+        cursor: pointer;
+        opacity: 1;
+        text-decoration: underline;
+        text-decoration-color: black;
+      }
+    }
+
+
+  }
+
+    .contactBlock h3, .amenitiesBlock h3, .QBlock h3, .floorPlanBlock h3 {
+      font-family: 'Playfair Display', serif;
+      width: 50%;
+      margin: 30% auto;
+      color: black;
+      background-color: white;
+      border: thin solid black;
+
+    }
+
+.testimonials {
+  margin-top: 5%;
+
+  h2 {
+    font-family: 'Playfair Display', serif;
+  }
+
+  .testimonialBlock {
+    background-color: white;
+    box-shadow: 2px 2px $gray;
+    border: thin solid $black;
+  }
+}
+
+.CTA {
+   margin-top: 5%;
+   margin-bottom: 5%;
+
+   h2 {
+     background-color: $gray;
+     color: White;
+     font-family: 'Playfair Display', serif;
+     text-shadow: 2px 2px $black;
+   }
+
+   a {
+       :hover {
+         text-shadow: 2px 2px 5px black;
+       }
+
+     button {
+      background-color: $green;
+      color: white;
+      height: 130%;
+      margin: auto;
+      font-size: 100%;
+      padding: 1%;
+      font-family: 'Playfair Display', serif;
+      cursor: pointer;
+    }
+  }
+
+}
+
+.testImage img{
+  width: 300px;
+  border-radius: 100%;
+}

@@ -1,0 +1,91 @@
+//variables
+$background: #f5f5f5;
+$green: #8F9E59;
+$gray: #757D79;
+$black: #000000;
+
+.imageBackground  {
+  height: 300px;
+  width: 100%;
+  background-image: url("../images/contactUs2.jpg");
+  background-size: auto;
+  background-position: center;
+  margin-bottom: 5%;
+
+    h1 {
+      padding-top: 10%;
+      color: white;
+      font-size: 250%;
+      text-shadow: 2px 2px $black;
+    }
+}
+
+.formSection {
+
+  form {
+    width: 80%;
+    margin: auto;
+    background-color: $green;
+    color: white;
+    padding: 2%;
+    border-radius: 20px;
+    box-shadow: 20px 20px 5px $gray;
+    margin-bottom: 5%;
+
+    h1 {
+      font-family: 'Playfair Display', serif;
+      margin-bottom: 5%;
+      text-shadow: 2px 2px $black;
+    }
+
+    label {
+      font-size: 100%;
+      margin-bottom: 10%;
+    }
+
+    input[type="text"], [type="email"], [type="tel"], [type="date"] {
+      width: 80%;
+      font-size: 100%;
+    }
+
+    select {
+      font-size: 100%;
+      width: 80%;
+    }
+
+    h3 {
+      font-family: 'Playfair Display', serif;
+      text-shadow: 2px 2px $black;
+      padding-top: 5%;
+      border-top: thin solid $black;
+    }
+
+    textarea {
+      width: 90%;
+      font-size: 100%;
+    }
+
+    input[type="submit"], [type="reset"] {
+      background-color: $black;
+      color: white;
+      font-size: 100%;
+      padding: 1%;
+      padding-left: 5%;
+      padding-right: 5%;
+      font-family: 'Playfair Display', serif;
+    }
+
+
+  }
+}
+
+.map {
+  background-color: $gray;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin: 0.55%;
+
+  iframe {
+    width: 80%;
+  }
+}

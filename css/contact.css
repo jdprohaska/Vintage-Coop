@@ -1,0 +1,82 @@
+.imageBackground {
+  height: 300px;
+  width: 100%;
+  background-image: url("../images/contactUs2.jpg");
+  background-size: auto;
+  background-position: center;
+  margin-bottom: 5%;
+}
+
+.imageBackground h1 {
+  padding-top: 10%;
+  color: white;
+  font-size: 250%;
+  text-shadow: 2px 2px #000000;
+}
+
+.formSection form {
+  width: 80%;
+  margin: auto;
+  background-color: #8F9E59;
+  color: white;
+  padding: 2%;
+  border-radius: 20px;
+  -webkit-box-shadow: 20px 20px 5px #757D79;
+          box-shadow: 20px 20px 5px #757D79;
+  margin-bottom: 5%;
+}
+
+.formSection form h1 {
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 5%;
+  text-shadow: 2px 2px #000000;
+}
+
+.formSection form label {
+  font-size: 100%;
+  margin-bottom: 10%;
+}
+
+.formSection form input[type="text"], .formSection form [type="email"], .formSection form [type="tel"], .formSection form [type="date"] {
+  width: 80%;
+  font-size: 100%;
+}
+
+.formSection form select {
+  font-size: 100%;
+  width: 80%;
+}
+
+.formSection form h3 {
+  font-family: 'Playfair Display', serif;
+  text-shadow: 2px 2px #000000;
+  padding-top: 5%;
+  border-top: thin solid #000000;
+}
+
+.formSection form textarea {
+  width: 90%;
+  font-size: 100%;
+}
+
+.formSection form input[type="submit"], .formSection form [type="reset"] {
+  background-color: #000000;
+  color: white;
+  font-size: 100%;
+  padding: 1%;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-family: 'Playfair Display', serif;
+}
+
+.map {
+  background-color: #757D79;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin: 0.55%;
+}
+
+.map iframe {
+  width: 80%;
+}
+/*# sourceMappingURL=contact.css.map */

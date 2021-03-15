@@ -1,0 +1,49 @@
+.imageBackground {
+  height: 300px;
+  width: 100%;
+  background-image: url("../images/aboutHead.jpg");
+  background-position: center;
+  margin-bottom: 5%;
+}
+
+.imageBackground h1 {
+  padding-top: 10%;
+  color: white;
+  font-size: 250%;
+  text-shadow: 2px 2px #000000;
+}
+
+.introP {
+  padding: 2%;
+  border-top: thin solid #000000;
+  border-bottom: thin solid #000000;
+}
+
+.Qsection {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.Qsection h2, .Qsection h3 {
+  margin-bottom: 2%;
+  background-color: #757D79;
+  color: White;
+  font-family: 'Playfair Display', serif;
+  text-shadow: 2px 2px #000000;
+}
+
+.Qsection a :hover {
+  text-shadow: 2px 2px 5px black;
+}
+
+.Qsection a button {
+  background-color: #8F9E59;
+  color: white;
+  height: auto;
+  margin: auto;
+  font-size: 100%;
+  padding: 1%;
+  font-family: 'Playfair Display', serif;
+  cursor: pointer;
+}
+/*# sourceMappingURL=about.css.map */
